@@ -41,6 +41,11 @@ namespace Vista
             {
                 MessageBox.Show("Edad no valida");
             }
+
+            if (Validar.esDigito(txtCadena.Text) == true)
+            {
+                MessageBox.Show("Es un digito");
+            }
         }
         }
     }
